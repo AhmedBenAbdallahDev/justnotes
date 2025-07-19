@@ -65,7 +65,7 @@
       <span>Notes by Ashref is open source. </span>
     </p>
     <p style="margin-top: 20px; color: #5c6269;">Hack on
-      <a href="https://github.com/AhmedBenAbdallahDev/justnotes" target="_blank" style="color: #33abc0; text-decoration: underline;">
+      <a href="https://github.com/AhmedBenAbdallahDev/justnotes" target="_blank" style="color: #9369e6ff; text-decoration: underline;">
         Notes by Ashref @ GitHub
       </a>
     </p>
