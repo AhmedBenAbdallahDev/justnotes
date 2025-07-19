@@ -12,8 +12,12 @@ a { color: inherit; text-decoration: inherit; }
 button, input, optgroup, select, textarea { padding: 0; line-height: inherit; color: inherit; }
 pre, code, kbd, samp { font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&family=Space+Grotesk:wght@700&display=swap');
 html, body { margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', Verdana, Geneva, Tahoma, sans-serif; font-size: 0.9rem; height: 100dvh; width: 100dvw; overflow: hidden;}
+
+h1 {
+  font-family: 'Space Grotesk', sans-serif;
+}
 
 
 .absolute { position: absolute; }
