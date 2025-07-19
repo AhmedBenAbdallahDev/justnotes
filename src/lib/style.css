@@ -12,7 +12,18 @@ a { color: inherit; text-decoration: inherit; }
 button, input, optgroup, select, textarea { padding: 0; line-height: inherit; color: inherit; }
 pre, code, kbd, samp { font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
-html, body { margin: 0; padding: 0; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 0.9rem; height: 100dvh; width: 100dvw; overflow: hidden;}
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&family=Noto+Sans:wght@400;700&display=swap');
+html, body { margin: 0; padding: 0; font-family: 'Noto Sans', Verdana, Geneva, Tahoma, sans-serif; font-size: 0.9rem; height: 100dvh; width: 100dvw; overflow: hidden;}
+
+/* Urbanist for title and 'Notes by Ashref' branding */
+h1, .ashref-title, .ashref-branding {
+  font-family: 'Urbanist', sans-serif !important;
+}
+
+/* Urbanist for any element containing 'Notes by Ashref' text */
+[class*="ashref"], [id*="ashref"], [data-brand="ashref"] {
+  font-family: 'Urbanist', sans-serif !important;
+}
 .absolute { position: absolute; }
 .bg-gray-200 { background-color: #edf2f7; }
 .bg-gray-800 { background-color: #2d3748; }

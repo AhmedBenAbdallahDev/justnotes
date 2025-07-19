@@ -3,7 +3,7 @@
 
   import DownloadNotesZip from './DownloadNotesZip.svelte';
   import ImportNotesZip from './ImportNotesZip.svelte';
-  import AbstractlyLogo from './AbstractlyLogo.svelte';
+  // import AbstractlyLogo from './AbstractlyLogo.svelte';
 
   const handleDeleteCollection = async () => {
     const db$ = await db();
@@ -15,7 +15,7 @@
 </script>
 
 <div class="text-white h-full" style="margin-bottom: 100px; padding: 5px 15px; margin: 0;">
-  <span class="font-bold">nvAux Settings</span>
+  <span class="font-bold">Notes by Ashref Settings</span>
   <div class="relative">
     {#await db().notes.find().exec()}
       <p>...waiting</p>
@@ -62,16 +62,11 @@
 
   <div class="text-center" style="padding-bottom: 300px;">
     <p class="items-center flex" style="margin-top: 100px; text-align: center; color: #5c6269; font-size: 11px;  flex-wrap: wrap;">
-      <span>Designed and Built by</span>
-      <span class="relative" style="display: inline-block; height: 30px; width: 80px; top: 13px;"><a href="https://abstractly.io" target="_blank">
-        <span class="flex items-center">
-          <AbstractlyLogo />
-        </span>
-      </a></span> <span>The Human Interface Company.</span>
+      <span>Notes by Ashref is open source. </span>
     </p>
     <p style="margin-top: 20px; color: #5c6269;">Hack on
-      <a href="https://github.com/matterofabstract/nvaux" target="_blank" style="color: #33abc0; text-decoration: underline;">
-        nvAux @ GitHub
+      <a href="https://github.com/AhmedBenAbdallahDev/justnotes" target="_blank" style="color: #9369e6ff; text-decoration: underline;">
+        Notes by Ashref @ GitHub
       </a>
     </p>
   </div>

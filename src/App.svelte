@@ -40,9 +40,9 @@
 
     <div class="transition-all text-center" style="{$fullScreen ? 'opacity: 0; height: 0;' : 'height: 200px;' }">
       <div style="perspective: {$fullScreen ? '0' : '150'}px;" class="transition-all">
-        <h1 style="opacity: 0.9; text-shadow: 1px 3px 5px rgba(0,0,0,0.5); transform: rotateX(6deg) rotateY(0deg); transform-style: preserve-3d;">nvAux</h1>
+        <h1 style="opacity: 0.9; text-shadow: 1px 3px 5px rgba(0,0,0,0.5); transform: rotateX(6deg) rotateY(0deg); transform-style: preserve-3d; font-family: 'Urbanist', sans-serif;">Notes by Ashref</h1>
       </div>
-      <p>Capture and retrieve ideas at the speed of thought with nvAux, the in-the-zone note-taking app for creative professionals.</p>
+      <p>Capture and retrieve ideas at the speed of thought with Notes by Ashref, the in-the-zone note-taking app for creative professionals.</p>
     </div>
 
   <main
@@ -62,7 +62,7 @@
     font-size: 69px;
     line-height: 0;
     font-weight: 600;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Urbanist', sans-serif;
     margin-bottom: 50px;
   }
   p {
