@@ -7,5 +7,3 @@ Capture and retrieve ideas at the speed of thought with nvAux, the in-the-zone, 
 npm i && npm run dev
 ```
 
-Designed and built by [Abstractly](https://abstract.ly/). The Human Interface Company.
-
